@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+
+body {
+  background-color: #111;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(img/laptop.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+span {
+  font-size: 15px;
+  color: blue;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: italic;
+  font-style: bold;
+}
+
+a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+
+.container {
+  position: absolute;
+  /* box-shadow: 2.8px 2.8px 2.2px #05050594, 8px 9px 9px #00000017, 9px 10px 10px #00000017, 7px 9px 11px #00000017, 7px 7px 2px #00000017, 6px 11px 13px #000; */
+  overflow: hidden;
+  min-height: 480px;
+  width: 768px;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.form-container {
+  background: rgba(45, 52, 54, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+/*Iconos de las Redes Sociales*/
+
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+header{
+ position: absolute;
+ right: 15px;top: 25px; 
+
+ }
+
+ nav{display: flex; flex-direction: column; margin-top: 15px; position: relative;}
+
+ nav a{
+  text-align: center;
+  padding: 5px 20px; background: rgb(42, 42, 42);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.103);
+  border-radius: 15px; text-decoration: none;
+  color: white; margin: 5px 0;
+  transition: transform calc(var(--i) * 0.2s), background .4s;
+  background: #DD4A48;
+ } 
+ 
+
+nav a:hover{
+  background: #fff;
+  box-shadow: 0 0 15px #dd4b48b7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

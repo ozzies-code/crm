@@ -1,0 +1,131 @@
+body {
+      background-image: url("img/laptop.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    h1{
+   color: #fff;
+   text-align: center;
+   font-style: italic;
+
+      }
+
+      p{
+        font-size: 16px;
+        color: #fff; 
+        margin-left:-2px;
+       }
+
+    .container {
+      width: 50%;
+      height: 250px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      border-color: black;
+      backdrop-filter: blur(10px);
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    button {
+      margin: 40px;
+      margin-top: 30%;
+      
+    }
+
+    .custom-btn {
+      width: 230px;
+      height: 80px;
+      color: #fff;
+      border-radius: 5px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      font-size: 16px;
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(30px);
+      color: rgba(255, 255, 255, 0.8);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-color: black;
+      letter-spacing: 1.3px;
+      z-index: 1;
+      font-size: 30px;
+      margin-left: 22%;
+    }
+
+    .btn-1:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 5px;
+      background-color: rgba(57, 223, 223, 0.164);
+      transition: all 0.3s ease;
+    }
+
+    .btn-1:hover {
+      color: brown;
+    }
+
+    .btn-1:hover:after {
+      top: 0;
+      height: 100%;
+    }
+
+    .btn-1:active {
+      top: 2px;
+    }
+
+    .btn-2:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 5px;
+      background-color: rgba(57, 223, 223, 0.164);
+      transition: all 0.3s ease;
+    }
+
+    .btn-2:hover {
+      color: brown;
+    }
+
+    .btn-2:hover:after {
+      top: auto;
+      bottom: 0;
+      height: 100%;
+    }
+
+    .btn-2:active {
+      top: 2px;
+    }
+
+    @media (min-width: 600px) {
+              
+            }
+
+            @media (max-width: 599px) {
+
+                h1{visibility: hidden;}
+
+                button {visibility: hidden;}
+
+                .container{ visibility: hidden; }
+            }
